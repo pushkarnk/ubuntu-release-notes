@@ -846,9 +846,19 @@ As is to be expected with any release, there are some significant known bugs tha
 
 The Live Session of the new Ubuntu Desktop installer is not localized. It is still possible to perform a non-English installation using the new installer, but internet access at install time is required to download the language packs. ([LP: #2013329](https://bugs.launchpad.net/ubuntu-release-notes/+bug/2013329))
 
+#### The screen reader is difficult to enable during installation
+
+For users who rely on the screen reader, it's difficult to navigate the accessibility page of the installer while the screen reader is still disabled.
+
+To enable the screen reader immediately, press the {kbd}`Super+Alt+S` shortcut.
+
+:::{note}
+On PCs, the {kbd}`Super` key is usually labeled as the {kbd}`Windows` key, while on Apple hardware, it's the {kbd}`Command` key.
+:::
+
 #### Screen reader support
 
-Screen reader support is present with the new desktop installer, but is incomplete ([LP: #2061015](https://launchpad.net/bugs/2061015), [LP: #2061018](https://launchpad.net/bugs/2061018), [LP: #2036962](https://launchpad.net/bugs/2036962), [LP: #2061021](https://launchpad.net/bugs/2061021))
+Screen reader support is present with the new desktop installer, but is incomplete [LP: #2061018](https://launchpad.net/bugs/2061018), [LP: #2061021](https://launchpad.net/bugs/2061021))
 
 #### OEM installs
 
