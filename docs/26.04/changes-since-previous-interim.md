@@ -771,6 +771,14 @@ Previously, resuming from suspend with an Nvidia GPU exhibited visual corruption
 
 For details, see [LP#1876632](https://bugs.launchpad.net/bugs/1876632).
 
+#### The installer is now usable with the screen reader
+
+Previously, the Ubuntu Desktop installer failed to announce key information when using the screen reader. This often prevented blind users from completing the installation.
+
+With this release, various accessibility issues in the installer have been fixed. As a result, it's now possible to install Ubuntu Desktop while using the screen reader.
+
+For details, see [LP#2061015](https://bugs.launchpad.net/ubuntu-desktop-provision/+bug/2061015) and [LP#2036962](https://bugs.launchpad.net/ubuntu-desktop-provision/+bug/2036962).
+
 ### Server fixes
 
 #### Apache 2.4.65
@@ -855,10 +863,6 @@ To enable the screen reader immediately, press the {kbd}`Super+Alt+S` shortcut.
 :::{note}
 On PCs, the {kbd}`Super` key is usually labeled as the {kbd}`Windows` key, while on Apple hardware, it's the {kbd}`Command` key.
 :::
-
-#### Screen reader support
-
-Screen reader support is present with the new desktop installer, but is incomplete [LP: #2061018](https://launchpad.net/bugs/2061018), [LP: #2061021](https://launchpad.net/bugs/2061021))
 
 #### OEM installs
 
